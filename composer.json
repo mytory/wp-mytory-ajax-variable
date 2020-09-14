@@ -1,7 +1,7 @@
 {
   "name": "mytory/wp-mytory-ajax-variable",
   "description": "wp-mytory-*에 사용하는 ajax 변수 공통 패키지",
-  "version": "1.0",
+  "version": "1.0.1",
   "keywords": [
     "wordpress",
     "tool"

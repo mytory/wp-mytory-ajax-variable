@@ -13,7 +13,7 @@ class MytoryAjaxVariable {
 		global $wp_query;
 		?>
 		<script type="text/javascript">
-            window.mytory_like = {
+            window.mytory_ajax = {
                 ajax_url: <?= json_encode( admin_url( "admin-ajax.php" ) ); ?>,
                 ajax_nonce: <?= json_encode( wp_create_nonce( "mytory-like-ajax-nonce" ) ); ?>,
                 wp_debug: <?= defined( WP_DEBUG ) ? WP_DEBUG : 'false' ?>
