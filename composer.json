@@ -1,0 +1,26 @@
+{
+  "name": "mytory/wp-mytory-ajax-variable",
+  "description": "wp-mytory-*에 사용하는 ajax 변수 공통 패키지",
+  "version": "1.0",
+  "keywords": [
+    "wordpress",
+    "tool"
+  ],
+  "authors": [
+    {
+      "name": "An, Hyeong-woo",
+      "email": "mytory@gmail.com"
+    }
+  ],
+  "repositories": [
+  ],
+  "type": "library",
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mytory\\AjaxVariable\\": "src/"
+    }
+  }
+}
